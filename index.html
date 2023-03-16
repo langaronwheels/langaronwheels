@@ -2,17 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Langar on Wheels</title>
-  <style>
-    body {
-      background-color: yellow;
-      margin: 0;
-      padding: 0;
+  <title>My Website</title>
+  <script type="text/javascript">
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      window.location.href = "mobile.html";
+    } else {
+      window.location.href = "web.html";
     }
-  </style>
+  </script>
 </head>
 <body>
-  <center><img src="logo.png" width="30%" height="40%"></center>
+  <!-- No content needed on this page -->
 </body>
 </html>
